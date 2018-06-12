@@ -1,6 +1,0 @@
-# Ludinord
-
-kdhsflh
-dsdf
-
-nbjobobob
