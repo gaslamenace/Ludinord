@@ -1,0 +1,43 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="salles.css">
+	<meta charset="utf-8">
+	<title>Fédéjeux</title>
+</head>
+<body>
+<h2>Choisissez votre salle:</h2>
+
+
+<div id="blocboutons">
+
+	<img src="ressources/fort.jpg" id="logo1">
+	<div class="bouton" id="fort" onclick="affichergraphe('fort')">	
+		Salle du Fort
+	</div>
+
+	<img src="ressources/maison.jpg" id="logo2">
+	<div class="bouton" id="chapiteau" onclick="affichergraphe('chapiteau')">
+		Chapiteau
+	</div>
+
+	<img src="ressources/montaigne.jpeg" id="logo3">
+	<div class="bouton" id="montaigne" onclick="affichergraphe('montaigne')">	
+		Salle montaigne
+	</div>
+
+</div>
+<div id="deconnect" class="bouton" onclick="affichergraphe('connexion')">
+	déconnexion
+</div>
+
+</body>
+<script type="text/javascript">
+	
+	function affichergraphe(requete){
+		//console.log(requete);
+		window.location= <?php echo("'index.php?view=connexion'")?> ;
+		}
+
+</script>
+</html>

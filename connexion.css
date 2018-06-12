@@ -1,0 +1,63 @@
+
+
+#accueil{
+	margin-top: 100px;
+	height: 500px;
+	margin-right: 20%;
+	margin-left: 20%;
+	
+}
+#accueil>p{
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-stretch: ultra-expanded;
+	text-align: center;
+	width: 600px;
+	line-height: 18px;
+	}
+
+#accueil>img{
+	margin-bottom: 30px;
+	width: 600px;
+}
+
+#connexion{
+	margin-top: 400px;
+	margin-left: 32%;
+}
+
+.zonetext{
+	float: left;
+	margin-bottom: 60px;
+	width: 100%;
+
+}
+.zonetext>input{
+	margin-left: 15px;
+	border: 1px black solid;
+	height: 40px;
+	font-size: 25px;
+}
+#cadenas{
+	height: 40px;
+}
+#bonhomme{
+	height: 60px
+}
+
+#bttnconnect{
+	background-color: white;
+	font-size: 25px;
+	width: 160px;
+	height:70px;
+	border: 2px solid black;
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+#bttnconnect:active{
+	background-color: lightgrey;
+	border: 4px solid grey;
+
+}

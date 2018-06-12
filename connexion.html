@@ -1,0 +1,47 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="connexion.css">
+	<meta charset="utf-8">
+	<title>Fédéjeux</title>
+</head>
+<body>
+	<div id="accueil">
+		<img src="ressources/logo-fedejeux.png">	
+		<p>Accéder au comptage en</p>
+		<p>temps réel des participants</p>
+		<p>du festival</p>
+	</div>
+	<div id="connexion">
+		<div class="zonetext"> 
+			<img src="ressources/bonhomme.png" id="bonhomme">
+			<input type="text" id="login" value="Identifiant">
+		</div>
+		<div class="zonetext">
+			<img src="ressources/cadenas.png" id="cadenas">
+			<input type="text" id="passe" value="Mot de passe">
+		</div>
+
+		<input type="button" name="connect" value="Se connecter" id="bttnconnect" onclick="connexion()">
+	</div>
+</body>
+<script type="text/javascript">
+	function connexion(){
+		var mdp = document.getElementById("passe").value;
+		var identite = document.getElementById("login").value;
+		if (mdp=="mdp" & identite=="login") {
+			window.location = "index.php?view=menu";
+			$_SESSION['etat']='connected'
+		}
+		if (!(mdp=="mdp" & identite=="login")) {
+			alert("Mot de passe ou Identifiant incorrecte");
+		}
+	}
+
+
+
+</script>
+</html>
