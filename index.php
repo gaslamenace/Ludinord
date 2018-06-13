@@ -14,23 +14,23 @@ switch($view)
 	{		
 
 		case "menu" : 
-			include("salles.html");
+			include("./salles.html");
 		break;
 
 		case "fort" : 
-			include("fdj_V2_accueil.html");
+			include("./graphe.html?vue=fort");
 		break; 
 
 		case "montaigne" : 
-			include("fdj_V2_accueil.html");
+			include("./graphe.html?vue=montaigne");
 		break;
 
 		case "chapiteau":
-			include("fdj_V2_accueil.html");
+			include("./graphe.html?vue=montaigne");
 		break;
 
 		case "connexion":
-			include("connexion.html");
+			include("./connexion.html");
 		break;
 
 	}
